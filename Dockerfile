@@ -1,8 +1,8 @@
 # Use an official Node.js runtime as the base image
-FROM node:14
+FROM node:18-alpine AS base
 
 # Set the working directory in the container to /app
-WORKDIR /app
+WORKDIR /nextjs-docker
 
 # Copy the package.json and package-lock.json files to the container
 COPY package*.json ./
