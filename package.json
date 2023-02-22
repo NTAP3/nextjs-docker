@@ -3,7 +3,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build"
-    "test": "echo \"Hello from Ricards\""
+    "test": "echo \"Hello from Ricards\"",
     "lint": "next lint"
   },
   "dependencies": {
