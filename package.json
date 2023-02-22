@@ -3,6 +3,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build"
+    "test": "echo \"Hello from Ricards"\"
   },
   "dependencies": {
     "next": "latest",
